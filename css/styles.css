@@ -38,6 +38,7 @@ body {
     font-weight: 900;
     margin-top: .938rem;
     margin-bottom: .625rem;
+    color: hsl(223, 47%, 23%)
 }
 
 .card-top {
@@ -77,6 +78,7 @@ body {
     margin-top: 1.25rem;
     margin-bottom: 0;
     padding: 0;
+    color: hsl(223, 47%, 23%)
 }
 
 .pricing-text {
