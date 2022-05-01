@@ -1,0 +1,168 @@
+body {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: .813rem;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    margin: 6rem auto 4.375rem;
+    padding: 0;
+    position: relative;
+    width: 22.813rem;
+}
+
+.margin-lr {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.border-rounded {
+    border-radius: .75rem;
+}
+
+/* border content */
+
+.card-shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.hero-img {
+    border-radius: .75rem .75rem 0 0;
+}
+
+/*heading of the summary */
+
+.card-title {
+    font-size: 1.563rem;
+    font-weight: 900;
+    margin-top: .938rem;
+    margin-bottom: .625rem;
+}
+
+.card-top {
+    margin-top: .313rem;
+    margin-bottom: .75rem;
+    font-size: .875rem;
+}
+
+
+/* Styling Text */
+
+.bold {
+    font-weight: bold;
+}
+
+.color-pale-blue {
+    color: hsl(224, 23%, 55%);
+}
+
+/* Pricing Area */
+
+.card-pricing {
+    border-radius: .75rem;
+    background-color: rgba(248, 249, 254, 255);
+    width: 17.688rem;
+    height: 5rem;
+    margin: .313rem 1rem .25rem 1.438rem;
+    display: flex;
+}
+
+/* Organizing the pricing area*/
+.pricing-left {
+    margin: 1rem;
+}
+
+.pricing-title {
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.pricing-text {
+    margin-bottom: 1.875rem;
+}
+
+.pricing-right {
+    margin-top: 1.688rem;
+    margin-left: 3.438rem;
+}
+
+.icon-music {
+    width: 2.7rem;
+}
+
+/* Pricing text styling */
+
+.pricing-right a:hover,
+:active {
+    text-decoration: none;
+}
+
+.pricing-right a:link,
+:visited {
+    color: #423bab
+}
+
+/* Buttons */
+
+
+.btn-pay,
+.btn-cancel {
+    font-size: .813rem;
+    margin-top: .313rem;
+    margin-bottom: .313rem;
+}
+
+.btn-pay {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 17.688rem;
+    border-radius: .5rem;
+}
+
+.btn-pay:hover,
+.btn-pay:active {
+    background-color: #766cf1;
+    color: white;
+}
+
+.btn-cancel {
+    margin-bottom: 1.25rem;
+}
+
+
+/* WAVES */
+
+.custom-shape-divider-top-1651241421 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1651241421 svg {
+    position: relative;
+    display: block;
+    width: calc(143% + 1.3px);
+    height: 320px;
+}
+
+.custom-shape-divider-top-1651241421 .shape-fill {
+    fill: #D6E1FF;
+}
+
+
+/* Footer */
+
+.attribution {
+    font-size: .688rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
